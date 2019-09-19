@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import CharacterCard from "./CharacterCard"
+import _ from 'lodash';
+
 export default class WordCard extends
 Component {
 activationHandler = c => { console.log(`${c} has been activated.`) }
